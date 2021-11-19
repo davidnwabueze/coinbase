@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+
+}
+header{
+    display: flex;
+    top: 0;
+}
+.header{
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+  
+}
+.bar{
+    float: right;
+    padding-top:0px;
+}
+nav{
+    position: fixed;
+    background-color:0 0 10px rgba(11, 10, 52, 0.3);
+    left: -70vw;
+    height: 100%;
+    font-size: larger;
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3);
+
+}
+.frist-cta,.second-cta{
+    color: rgb(15, 15, 15);
+    padding: 30px;
+
+    
+}
+
+.nav-open{
+    left: 0vw;
+    width: 40vw;
+    
+}
+.li{
+    margin-top: 40px;
+    
+}
+.li:hover{
+   background-color: rgb(117, 116, 111);
+   box-shadow: 0 0 6px rgba(15, 8, 203, 0.3);
+   padding-left: 20px;
+   width: 90%;
+}
+.sec-st{
+top: 70px;
+
+justify-content: center;
+align-items: center;
+
+}
+
+
+.btc-cont{
+   margin-top: 12px;
+   padding: 30px;
+   width: 100%;
+   background-color: transparent;
+   align-items: center;
+ border-radius: 20px;
+   box-shadow: 0 0 6px rgba(15, 8, 203, 0.3);
+   height: 100%;
+
+  
+}
+.h5-b{
+    padding: 30px;
+    font-size: larger;
+}
+.referral-cta{
+    display: flex;
+    justify-content: space-evenly;
+    left: 0;
+}
+.level-btn{
+    color: thistle;
+    
+}
+.crypt-span{
+    color: rgb(55, 55, 215);
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+    
+}
+.crypto-class{
+    padding: 20px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+}
+.refrral-num{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 9px;
+    font-size: 30px;
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3);
+    text-align: center;
+   
+}
+
+.image-btn{
+    padding: 20px;
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+}
+.btc-btn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(103, 103, 244);
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.btc-l{
+    display: inline;
+    justify-content: center;
+   padding-top: 20px;
+    
+  
+  
+align-items: center;
+}
+.crypto-imgs{
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;cursor: pointer;
+}
+
+.chart-line{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+    
+
+}
+.chart-view{
+ border: 1px solid rgb(229, 219, 219) ;
+ box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+ padding: 20px;
+ color: gray;
+ font-weight: bolder;
+}
+.CHART-num{
+    color: rgb(104, 104, 241);
+    padding-top: 20px;
+}
+.full-user{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px ;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.investor{
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+   border-radius: 0.4px;
+  font-size: 15px;
+   font-weight: bolder;
+   background-color: rgb(254, 252, 248);
+
+}
+.investor-cta{
+   padding-top: 40px;
+
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: left;
+
+   
+}
+.refer-cta{
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+    border-radius: 0.4px;
+    padding: -20px;
+   font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(254, 252, 248);
+    padding-right: 29px;
+    box-shadow: 0 0 6px rgba(15, 8, 203, 0.3) ;
+   
+ 
+}
+.refe-name{
+   font-weight: bolder;
+
+  
+}
+.refer-p{padding-top: 20px;
+
+   margin: 20px;
+
+}
+.btn-p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width:784px) {
+    .bar{
+        visibility: hidden;
+    }
+
+    .btc-l{
+        display: flex;
+         /* flex-wrap: wrap; */
+         
+         justify-content: center;
+     }
+    
+    .li{
+        margin-top: 0;
+    }
+    .body-cta{
+        display: flex;
+        word-spacing: 10px; word-spacing: 10px;
+        justify-content: space-between;
+        top: 0;
+        
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .next-step{
+        display: flex;
+        justify-content: center;
+        
+    }
+   
+    nav{
+        display: flex;
+        word-spacing: 10px;
+        row-gap: 70px;
+         box-shadow: rgba(14, 13, 13, 0.1);
+         background-color: transparent;
+         width: 50vw;
+         justify-content: space-between;
+         align-items: center;
+         /* background-color: rgba(14, 13, 13, 0.1); */
+         margin-left: 22px;
+         margin-right: 22px;
+         text-shadow: rgb(17, 15, 17);
+         top: 0;
+         height: auto;
+         padding: 0;
+         position: static;
+         
+    }
+    .li:hover{
+       
+     background-color: transparent;
+     box-shadow: none;
+    padding-left: 0px;
+    
+   
+        
+     }
+    .first-nav{
+          display: flex;
+        padding-left: 20px;
+        text-align: center;
+      background-color: transparent;
+        padding-top:10px;
+    
+    }
+    .frist-cta{
+        border: 2px solid  transparent;
+        font-weight: bold;
+       padding: 12px;
+       color: rgb(15, 15, 15);
+       border-radius: 20px;
+    }
+    .frist-cta:hover{
+          color: white;
+          border: 1px solid rgb(78, 19, 126);
+          background-color: rgb(54, 51, 51);
+          border-radius: 7px;
+         
+    }
+    
+    .second-nav{
+        display: flex;
+      padding-left: 20px;
+      text-align: center;
+    
+      padding-top:12px ;
+    }
+    
+    .second-cta{
+        border: 2px solid  white;
+        background-color: rgba(14, 13, 13, 0.1);
+        padding: 7px;
+    }
+    header{
+        display: flex;
+        top: 0;
+    }
+    .header{
+        padding-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
